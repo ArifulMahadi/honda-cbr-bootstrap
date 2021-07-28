@@ -7,13 +7,78 @@
     <title>Honda Store</title>
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>wellcome to the Store</h1>
+        <section class="container-fluid bg-info p-5">
+            <div class="row">
+                <div class="col-lg-6 d-flex justify-content-center d-flex align-items-center mb-5">
+                    <div class="container mx-5">
+                    <small>Computer-controlled digital transistorized with electronic.</small>
+                    <h1 class="text-white fw-bolder fs-1">Honda CBR 300R</h1>
+                    <p><small>personally i dont like honda cbr.but some times i love it just because of its georgous looking,and bike controlling,its beast of  street racer ..it has high tourk that give you powerfull engine,,and ya ,,see you not for mind</small></p>
+                    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    purchase
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">want to buy!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          are you sure to buy this dashing,stylish bike?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">nope</button>
+          <button type="button" class="btn btn-primary">yes i am</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/header-bike.png" class="img-fluid" alt="...">
+                </div>
+            </div>
+        </section>
     </header>
     <main>
-
+        <!-- Fetured Bikes -->
+         <section class="container-fluid mt-5">
+                <h2 class="d-flex justify-content-center fw-bold">Fetured Bikes 2021</h2>
+                <p class="d-flex justify-content-center text-primary"><small>Best bike collection</small></p>
+                <!-- Bikes -->
+                <div class="container mt-3">
+                    <div class="row g-2">
+                      <div class="col-4">
+                        <div style="filter: grayscale(1);" class="p-5">
+                            <img src="images/feature-bike.jpg" class="w-100" alt="...">
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="p-5">
+                            <img src="images/feature-bike.jpg" class="w-100" alt="...">
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div style="filter: grayscale(1);" class="p-5">
+                            <img src="images/feature-bike.jpg" class="w-100" alt="...">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+         </section>
+         
     </main>
     <footer>
 
