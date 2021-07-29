@@ -1,9 +1,35 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.custom-bg-color{
+    background-color: #264653;
+}
 .fa-star.filled{
     color: #E77C40;
 }
 .fa-star.unfilled{
     color:#E77C40 ;
+}
+.custom-text-color{
+    color: #E0E0E0;
+}
+.custon-btn-color{
+    background-color: #E76F51;
+}
+.custom-text{
+    color: #E76f51;
+}
+.custom-text-info{
+    color:#E76F51;
+}
+.custom-text-primary{
+    color: #0A0826;;
+}
+@media only screen and (max-width:688px) {
+    .container-custom h1{
+         margin-left: 50px;
+    }
+    .custom-text-info{
+        margin-left: 10px;
+    }
 }
