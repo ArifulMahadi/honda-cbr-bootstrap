@@ -25,11 +25,3 @@ body{
 .custom-text-primary{
     color: #0A0826;;
 }
-@media only screen and (max-width:688px) {
-    .container-custom h1{
-         margin-left: 50px;
-    }
-    .custom-text-info{
-        margin-left: 10px;
-    }
-}
